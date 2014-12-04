@@ -13,6 +13,7 @@ public class ComparaMultiplicaciones {
         BigInteger b = getnum.nextBigInteger();
         System.out.println("El resultado aplicando el metodo de la Multiplicacion Egipcia es : " + new MultiplicacionEgipcia().multiplica(a,b));
         System.out.println("El resultado aplicando el metodo de la Multiplicacion Rusa es    : " + new MultiplicacionRusa().multiplica(a,b));
+        System.out.println("El resultado aplicando el metodo de la Multiplicacion Sumas es    : " + new MultiplicacionSumas().multiplica(a,b));
         System.out.println("El resultado aplicando la operacion de multiplicacion interna es : " + a.multiply(b));
         
         //BigInteger a = new BigInteger("4001254436436");
